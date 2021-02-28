@@ -6,7 +6,7 @@
 
 - 安装CUDA 10.2
 - 从git上下载代码后，进入文件夹
-- 将网盘（https://cloud.tsinghua.edu.cn/d/4e49f63f17a242d48912/，密码oppo-thu）中的文件放到./cudaMSFRProject同目录下
+- 将网盘（https://cloud.tsinghua.edu.cn/d/4e49f63f17a242d48912/ ，密码oppo-thu）中的文件放到./cudaMSFRProject同目录下
 - 用Visual Studio 2019打开cudaMSFRProject.sln
 - 用Ctrl+F5编译运行程序
 
