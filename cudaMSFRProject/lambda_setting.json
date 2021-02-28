@@ -1,0 +1,30 @@
+{
+    "neutral": {
+        "lambda_l2": 0.05,
+        "lambda_icp": 1.0,
+        "lambda_lm": 3.2,
+        "lambda_pose_lm": 1.6
+    },
+    "nonrigid": {
+        "model_iters": 3,
+        "warpfield_iters": 2,
+        "closer_node_num": 6,
+        "lambda_icp": 0,
+        "lambda_pose_icp": 0.8,
+        "lambda_lm": 1000,
+        "labmda_contour_lm": 10,
+        "lambda_warpfield_lm": 95,
+        "lambda_warpfield_contour_lm": 500,
+        "lambda_warpfield_icp": 0.02,
+        "warpfield_smooth": 35.0,
+        "exp_smooth": 100.0,
+        "lambda_emotion": 0.0,
+        "lambda_l1": 10.0,
+        "pose_smooth_1": 0.0,
+        "pose_smooth_2": 0.0,
+        "pose_smooth_3": 400.0,
+      "lm_smooth": 0.3,
+      "eye_lambda": 5,
+      "eyebrow_lambda": 3
+    }
+}

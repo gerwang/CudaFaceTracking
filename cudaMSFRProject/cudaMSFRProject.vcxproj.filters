@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="src\BaselModel.cu" />
+    <CudaCompile Include="src\GenModels_CUDA.cu" />
+    <CudaCompile Include="src\MSFRUtil.cu" />
+    <CudaCompile Include="src\ObjMesh.cu" />
+    <CudaCompile Include="src\oni_reader.cu" />
+    <CudaCompile Include="src\solution.cu" />
+    <CudaCompile Include="src\solver.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="external\include\imgui\imgui.cpp" />
+    <ClCompile Include="external\include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="external\include\imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="external\include\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="src\BaselModel.cpp" />
+    <ClCompile Include="src\GenModels_CUDA.cpp" />
+    <ClCompile Include="src\GraphUtil.cpp" />
+    <ClCompile Include="src\LandmarkDetector.cpp" />
+    <ClCompile Include="src\LandmarkUtil.cpp" />
+    <ClCompile Include="src\ObjMesh.cpp" />
+    <ClCompile Include="src\oni_reader.cpp" />
+    <ClCompile Include="src\Parameters.cpp" />
+    <ClCompile Include="src\ShaderLoader.cpp" />
+    <ClCompile Include="src\solution.cpp" />
+    <ClCompile Include="src\Timer.cpp" />
+    <ClCompile Include="src\avatar.cpp" />
+    <ClCompile Include="src\SmoothFilter.cpp" />
+    <ClCompile Include="experiments.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\include\imgui\CostFunctions.h" />
+    <ClInclude Include="external\include\imgui\imconfig.h" />
+    <ClInclude Include="external\include\imgui\imgui.h" />
+    <ClInclude Include="external\include\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="external\include\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="external\include\imgui\imgui_internal.h" />
+    <ClInclude Include="external\include\imgui\stb_rect_pack.h" />
+    <ClInclude Include="external\include\imgui\stb_textedit.h" />
+    <ClInclude Include="external\include\imgui\stb_truetype.h" />
+    <ClInclude Include="src\BaselModel.h" />
+    <ClInclude Include="src\Common.h" />
+    <ClInclude Include="src\cudalib_helper.h" />
+    <ClInclude Include="src\cula_helper.h" />
+    <ClInclude Include="src\GenModels_CUDA.h" />
+    <ClInclude Include="src\GraphUtil.h" />
+    <ClInclude Include="src\HostUtil.hpp" />
+    <ClInclude Include="src\LandmarkDetector.h" />
+    <ClInclude Include="src\LandmarkUtil.h" />
+    <ClInclude Include="src\ObjMesh.h" />
+    <ClInclude Include="src\oni_reader.h" />
+    <ClInclude Include="src\Parameters.h" />
+    <ClInclude Include="src\pcl\gpu\containers\device_array.h" />
+    <ClInclude Include="src\pcl\gpu\containers\device_array.hpp" />
+    <ClInclude Include="src\pcl\gpu\containers\device_memory.h" />
+    <ClInclude Include="src\pcl\gpu\containers\device_memory.hpp" />
+    <ClInclude Include="src\pcl\gpu\containers\impl\device_array.hpp" />
+    <ClInclude Include="src\pcl\gpu\containers\impl\device_memory.hpp" />
+    <ClInclude Include="src\pcl\gpu\containers\initialization.h" />
+    <ClInclude Include="src\pcl\gpu\containers\kernel_containers.h" />
+    <ClInclude Include="src\pcl\gpu\utils\safe_call.hpp" />
+    <ClInclude Include="src\ShaderLoader.h" />
+    <ClInclude Include="src\solution.h" />
+    <ClInclude Include="src\solver.hpp" />
+    <ClInclude Include="src\VertexFormat.h" />
+    <ClInclude Include="src\window.hpp" />
+    <ClInclude Include="src\PclUtil.h" />
+    <ClInclude Include="src\Timer.h" />
+    <ClInclude Include="src\avatar.h" />
+    <ClInclude Include="src\LambdaSetting.h" />
+    <ClInclude Include="src\SmoothFilter.h" />
+    <ClInclude Include="src\dual_quaternion.hpp" />
+    <ClInclude Include="src\vector_operations.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\face_fragment_shader_sh.glsl" />
+    <None Include="shaders\face_fragment_shader_sh_viewer.glsl" />
+    <None Include="shaders\face_vertex_shader.glsl" />
+    <None Include="shaders\isomapfromcolor_fragment_shader.glsl" />
+    <None Include="shaders\isomapfromcolor_vertex_shader.glsl" />
+    <None Include="shaders\isomap_fragment_shader.glsl" />
+    <None Include="shaders\isomap_vertex_shader.glsl" />
+    <None Include="shaders\TestTriangle_fragment.glsl" />
+    <None Include="shaders\TestTriangle_vertex.glsl" />
+    <None Include="shaders\sh_ball_fragment.glsl">
+      <Filter>FineScaleGPU</Filter>
+    </None>
+    <None Include="shaders\sh_ball_vertex.glsl">
+      <Filter>FineScaleGPU</Filter>
+    </None>
+    <None Include="shaders\graph_fragment_shader.glsl" />
+    <None Include="shaders\graph_vertex_shader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FineScaleGPU">
+      <UniqueIdentifier>{7d82aac7-2805-44d7-b9de-b1c5fa1aaf1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FineScaleGPU\OptEnergy">
+      <UniqueIdentifier>{26666189-6cbd-4d52-adcb-4568dc747ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FineScaleGPU\OptSFS">
+      <UniqueIdentifier>{f7915567-2620-4cf2-a8e3-69232ea69989}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

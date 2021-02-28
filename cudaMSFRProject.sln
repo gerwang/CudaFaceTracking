@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cudaMSFRProject", "cudaMSFRProject\cudaMSFRProject.vcxproj", "{478F1D37-8EBF-4988-8BBD-650FC50A8C64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release_opt|x64 = Release_opt|x64
+		Release_opt|x86 = Release_opt|x86
+		TryOneTry|x64 = TryOneTry|x64
+		TryOneTry|x86 = TryOneTry|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{478F1D37-8EBF-4988-8BBD-650FC50A8C64}.Release_opt|x64.ActiveCfg = Release_opt|x64
+		{478F1D37-8EBF-4988-8BBD-650FC50A8C64}.Release_opt|x64.Build.0 = Release_opt|x64
+		{478F1D37-8EBF-4988-8BBD-650FC50A8C64}.Release_opt|x86.ActiveCfg = Release_opt|Win32
+		{478F1D37-8EBF-4988-8BBD-650FC50A8C64}.Release_opt|x86.Build.0 = Release_opt|Win32
+		{478F1D37-8EBF-4988-8BBD-650FC50A8C64}.TryOneTry|x64.ActiveCfg = TryOneTry|x64
+		{478F1D37-8EBF-4988-8BBD-650FC50A8C64}.TryOneTry|x64.Build.0 = TryOneTry|x64
+		{478F1D37-8EBF-4988-8BBD-650FC50A8C64}.TryOneTry|x86.ActiveCfg = TryOneTry|Win32
+		{478F1D37-8EBF-4988-8BBD-650FC50A8C64}.TryOneTry|x86.Build.0 = TryOneTry|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
